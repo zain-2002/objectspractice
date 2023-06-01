@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+ 
+</head>
+<body>
+
+    <!-- <button id="play-btn">Play Video</button>
+    <div id="player-container">
+        <iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/4ep7zySM3sQ" frameborder="0" allowfullscreen></iframe>
+      </div> -->
+      <!-- <button onclick="addstudent()">ADD STUDENT</button> -->
+      <!-- <p id="1"></p>
+      <p id="2"></p>
+      <p id="p3"></p> -->
+      <!-- <div style="display: flex;justify-content: center;align-items: center;height: 50vh;font-size: 50px;">
+        <div id="hours">00</div>
+        <div>:</div>
+        <div id="min">00</div>
+        <div>:</div>
+
+        <div id="sec">00</div>
+        <div>&nbsp;</div> -->
+        <!-- <div>:</div>
+        <div id="ampm">00</div>
+
+      </div> -->
+      <!-- <center>
+        <table>
+          <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Obttained Marks</th>
+            <th>Percentage</th>
+          </tr>
+          <tr>
+            <td id="sub1name"></td>
+            <td>100</td>
+            <td id="sub1obtmrks"></td>
+            <td id="sub1percent"></td>
+          </tr>
+          <tr>
+            <td id="sub2name"></td>
+            <td>100</td>
+            <td id="sub2obtmrks"></td>
+            <td id="sub2percent"></td>
+          </tr>
+          <tr>
+            <td id="sub3name"></td>
+            <td>100</td>
+            <td id="sub3obtmrks"></td>
+            <td id="sub3percent"></td>
+          </tr>
+          <tr>
+            <th>Total</th>
+            <td>300</td>
+            <td id="totalobtmrks"></td>
+            <td id="totalpercent"></td>
+          </tr>
+  
+        </table>
+      </center>
+     -->
+     <!-- HTML code for the dropdown and the text to be styled -->
+<!-- <select id="font-selector">
+  <option value="Arial">Arial</option>
+  <option value="Times New Roman">Times New Roman</option>
+  <option value="Verdana">Verdana</option>
+</select>
+<p id="text-to-style">This is the text to be styled.</p>
+
+<script>
+  // Get references to the dropdown and the text element
+  var fontSelector = document.getElementById("font-selector");
+  var textToStyle = document.getElementById("text-to-style");
+
+  // Add an event listener to the dropdown
+  fontSelector.addEventListener("change", function() {
+    // Get the selected font family from the dropdown
+    var fontFamily = fontSelector.value;
+
+    // Apply the selected font family to the text element
+    textToStyle.style.fontFamily = fontFamily;
+  });
+</script>
+ -->
+ <!-- HTML code for the dropdown and the text to be styled -->
+<!-- <select id="font-selector">
+  <option value="">select</option>
+  <option value="Arial">Arial</option>
+  <option value="Times New Roman">Times New Roman</option>
+  <option value="Verdana">Verdana</option>
+</select>
+<p id="text-to-style">This is the text to be styled.</p>
+
+<script>
+  // Get references to the dropdown and the text element
+  var fontSelector = document.getElementById("font-selector");
+  var textToStyle = document.getElementById("text-to-style");
+
+  // Add an event listener to the dropdown
+  fontSelector.addEventListener("change", function() {
+    // Get the selected font family from the dropdown
+    var fontFamily = fontSelector.value;
+
+    // Get the selected text
+    var selection = window.getSelection();
+    var selectedText = selection.toString();
+
+    // Apply the selected font family to the selected text
+    if (selectedText !== "") {
+      var range = selection.getRangeAt(0);
+      var span = document.createElement("span");
+      span.style.fontFamily = fontFamily;
+      range.surroundContents(span);
+    }
+  });
+</script> -->
+<h1>Objects</h1>
+
+<table border="1px solid" id="tb">
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Maths</th>
+        <th>English</th>
+        <th>Science</th>
+        <th>Total</th>
+        <th>Percentage</th>
+    </tr>
+</table>
+
+<h4>Show Top 3 Students</h4> 
+<h4 id="first">1 Student Name</h4> 
+<h4 id="second">2 Student Name</h4> 
+<h4 id="third">3 Student Name</h4> 
+
+<script src="./index.js"></script>      
+</body>
+</html>
