@@ -909,9 +909,9 @@ topcont.push(new topper(val.name,total))
 tr.innerHTML=`
 <td>${sn}</td>
 <td>${val.name}</td>
-<td>${val.results[0].subject}</td>
-<td>${val.results[1].subject}</td>
-<td>${val.results[2].subject}</td>
+<td>${val.results[0].marks}</td>
+<td>${val.results[1].marks}</td>
+<td>${val.results[2].marks}</td>
 <td>${total}</td>
 <td>${(total/300)*100}</td>
 `
